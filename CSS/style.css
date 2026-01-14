@@ -17,6 +17,14 @@
         font-family: "Noto Sans", sans-serif;
     }
 
+    h2 {
+        font-size: 45px;
+    } 
+
+    h3 {
+        font-size: 28px;
+    }
+
     h2,h3,h4,h5,h6{
         font-family: "Gloria Hallelujah", sans-serif;
 
@@ -110,14 +118,6 @@
         white-space: nowrap; 
     }
 
-    #sectionBienvenue h2 {
-        font-size: 45px;
-    } 
-    
-    #sectionBienvenue h3 {
-        font-size: 28px;
-    }
-
     #sectionBienvenue div{
         max-width: 500px;
     }
@@ -132,6 +132,59 @@
         background-position: right;
         background-size: 45%;
     }
+
+
+
+
+
+
+
+    #sectionGalerie{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 100px 0px;
+    }
+
+    #sectionGalerie article{
+        max-width: 650px;
+        margin: auto;
+        padding: 150px 0px;
+    }
+
+    #sectionGalerie p{
+        padding: 10px 0px;
+    }
+
+    #sectionGalerie h2{
+        padding-bottom: 40px;
+    }
+
+    #aProposGalerie {
+        background-color: #FBBBCD;
+    }
+
+    #divGalerie{
+        display: grid;
+    }
+
+   
+
+    #upperDivGalerie{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        
+    }
+
+    #downDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #downDiv img{
+        width: 100%;
+    }
+
+
 /* #endregion-----------------Main---------------------- */
 
 
