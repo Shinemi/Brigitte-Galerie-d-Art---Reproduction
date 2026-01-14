@@ -195,10 +195,30 @@
         text-decoration: underline;
     }
 
-    #downDiv img{
-        width: 100%;
+
+    #sectionOeuvres div{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 300px;
+        text-align: center;
+        gap: 20px;
     }
 
+    #sectionOeuvres {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    #sectionOeuvres img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
 /* #endregion-----------------Main---------------------- */
 
