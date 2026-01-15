@@ -220,6 +220,45 @@
         object-fit: cover;
     }
 
+    #sectionArtistes{
+        background-color: #F7F7F7;
+        padding: 150px 0px;
+    }
+
+
+    #sectionArtistes h2{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    #sectionArtistes h3{
+        padding: 10px 0px;
+    }
+
+    #sectionArtistes #gridArtistes{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        max-width: 1440px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #artistesSocials{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px;
+    }
+
+    #sectionArtistes img{
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+
+
+
+
 /* #endregion-----------------Main---------------------- */
 
 
