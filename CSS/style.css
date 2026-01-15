@@ -257,6 +257,44 @@
     }
 
 
+    #sectionActualite p {
+        padding: 10px 0px;
+    }
+
+    #sectionActualite{
+        padding: 100px 0px;
+    }
+
+    #sectionActualite img{
+        width: 100%;
+    }
+
+    #sectionActualite {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    #sectionActualite #date{
+        font-size: 14px;
+    }
+
+    #sectionActualite h3{
+        font-size: 18px;
+    }
+
+    #sectionActualite #gridActualite{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        max-width: 1440px;
+        gap: 20px;
+    }
+
 
 
 /* #endregion-----------------Main---------------------- */
