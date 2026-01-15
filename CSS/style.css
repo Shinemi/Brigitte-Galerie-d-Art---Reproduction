@@ -197,10 +197,9 @@
     }
 
 
-    #sectionOeuvres div{
+    #sectionOeuvres #gridOeuvre{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: 300px;
         text-align: center;
         gap: 20px;
     }
@@ -212,12 +211,13 @@
         align-items: center;
         gap: 30px;
         max-width: 1440px;
-        margin: auto;
+        margin: 100px auto;
+        padding-bottom: 200px;
     }
 
     #sectionOeuvres img {
         width: 100%;
-        height: 100%;
+        height: 300px;
         object-fit: cover;
     }
 
@@ -400,8 +400,74 @@
 /* #endregion-----------------Footer-------------------- */
 
 
+/* responsive Tablet */
 
+@media screen and (max-width: 1024px) {
+    header nav{
+        display: none;
+    }
 
+    #burgerMenu{
+        display: block;
+        font-size: 30px;
+    }
 
+    footer{
+        justify-content: center;
+        gap: 20px;
+    }
 
+    #sectionBienvenue{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    #sectionGalerie {
+    grid-template-columns: 1fr;
+    }
+
+    #sectionArtistes #gridArtistes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #sectionActualite {
+        text-align: center;
+        justify-content: center;
+    }
+
+    #sectionActualite #gridActualite{
+        grid-template-columns: 1fr;
+    }
+
+    #sectionOeuvres #gridOeuvre{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #sectionOeuvres{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    header #iRéseaux{
+        display: none;
+    }
+
+    footer ul{
+        flex-wrap: wrap;
+    }
+    
+    #sectionOeuvres #gridOeuvre{
+        grid-template-columns: 1fr;
+    }
+    
+    #sectionArtistes #gridArtistes{
+        grid-template-columns: 1fr;
+    }
+
+}
 
