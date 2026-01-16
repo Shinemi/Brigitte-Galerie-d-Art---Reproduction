@@ -20,6 +20,8 @@ h2{
     font-size: 18px;
     font-family: "Noto Sans",sans-serif;
     color: #333333;
+    font-weight: 400;
+    margin-bottom: -10px;
 }
 
 #blog{
@@ -36,10 +38,47 @@ section{
     grid-template-columns: repeat(3,1fr);
     margin: auto;
     gap: 20px;
+    padding: 0px 15px 100px 15px;
 }
 
 section img{
     width: 100%;
     height: 463px;
     object-fit: cover;
+}
+
+#dateArt, p{
+    font-size: 14px;
+    color: #9C9C9C;
+}
+
+#readMoreActu{
+    font-size: 14px;
+    color: #605BE5;
+    font-weight: 400;
+}
+
+p{
+    padding: 5px 0px;
+}
+
+#afficherPlus{
+    background-color: #605BE5;
+    border-radius: 3px;
+    color: white;
+    border: #605BE5;
+    width: fit-content;
+    grid-column: 2/3;
+    margin:  40px auto;
+
+}
+
+@media  screen and (max-width:1024px) {
+    section{
+        grid-template-columns: 1fr;
+    }
+
+    #afficherPlus{
+        grid-column: 1;
+    }
 }
