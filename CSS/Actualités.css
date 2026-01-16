@@ -1,0 +1,45 @@
+main> div{
+    padding: 200px 0px;
+    background-color: #FBBBCD;
+    text-align: center;
+}
+
+
+header{
+    margin-bottom: 0px;
+}
+
+
+h1{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Gloria Hallelujah", sans-serif;
+}
+
+h2{
+    font-size: 18px;
+    font-family: "Noto Sans",sans-serif;
+    color: #333333;
+}
+
+#blog{
+    font-size: 14px;
+    Line-height: 21px;
+    color: #7A7A7A;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+section{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    gap: 20px;
+}
+
+section img{
+    width: 100%;
+    height: 463px;
+    object-fit: cover;
+}
